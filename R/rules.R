@@ -255,12 +255,12 @@ predict.rules <- function(object, newdata) {
 
     for (w in 1:rulenum)  {
 
-      if (eval(parse(text = decision.rules[w,]$Rules)) == T) {
+      if ((eval(parse(text = decision.rules[w,]$Rules)) == T)[1]) {
         inter.table[w,] <- list("label" = decision.rules[w,][,2],
                                 "Performance Score" = decision.rules[w,][,4],
                                 "Indicator" = 1)
         # indicator = 1: the sample's label is determined by 'class label'
-      } else if (eval(parse(text = decision.rules[w,]$Rules)) == F) {
+      } else if ((eval(parse(text = decision.rules[w,]$Rules)) == F)[1]) {
         inter.table[w,] <- list("label" = decision.rules[w,][,3],
                                 "Performance Score" = decision.rules[w,][,4],
                                 "Indicator" = 0)
