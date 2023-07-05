@@ -1,0 +1,19 @@
+useDynLib(ranktreeEnsemble, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+importFrom("stats", "formula")
+importFrom("randomForestSRC","rfsrc","predict.rfsrc","vimp")
+importFrom("gbm","predict.gbm","relative.influence")
+importFrom("stats", "complete.cases")
+ importFrom("stats", "quantile")
+importFrom("utils", "data")
+importFrom("stats", "na.omit")
+importFrom("methods","is", "extends", "getClassDef", "getPackageName",
+               "isClassUnion", "packageSlot")
+importFrom("data.tree","FromDataFrameNetwork","NODE_RESERVED_NAMES_CONST", "Node")
+export(rforest,
+       extract.rules,
+       rboost,
+       importance,
+       predict,
+       pair,
+       select.rules)
