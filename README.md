@@ -1,4 +1,4 @@
-# R package for implementing ensemble methods of rank-based trees
+# R package for implementing ensemble methods of rank-based trees for single-sample predictors
 * A python version can be found at: https://github.com/RuijieYin/Ensemble_Methods_of_Rank_Based_Trees_py
 
 ## Authors
