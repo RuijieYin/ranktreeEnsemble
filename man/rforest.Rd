@@ -10,7 +10,9 @@ ranked gene pairs, for which the variable importance indices are computed and ad
   package.  Use the command \code{package?randomForestSRC} for more information.
 }
 \usage{
-rforest(formula, data, dimreduce = TRUE,
+rforest(formula, data,
+  dimreduce = TRUE,
+  datrank = TRUE,
   ntree = 500, mtry = NULL,
   nodesize = NULL, nodedepth = NULL,
   splitrule = NULL, nsplit = NULL,
@@ -42,6 +44,8 @@ rforest.tree(formula, data, dimreduce = FALSE,
 
   \item{dimreduce}{Dimension reduction via variable importance weighted forests. \code{FALSE}
   means no dimension reduction; \code{TRUE} means reducing 75\% variables before binary rank conversion and then fitting a weighted forest; a numeric value x\% between 0 and 1 means reducing x\% variables before binary rank conversion and then fitting a weighted forest.}
+
+  \item{datrank}{ If using ranked raw data for fitting the dimension reduction model. }
 
   \item{ntree}{Number of trees.}
 

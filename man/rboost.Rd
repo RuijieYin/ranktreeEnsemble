@@ -12,6 +12,7 @@ rboost(
   formula,
   data,
   dimreduce = TRUE,
+  datrank = TRUE,
   distribution = "multinomial",
   weights,
   ntree = 100,
@@ -34,6 +35,8 @@ rboost(
 
 \item{dimreduce}{Dimension reduction via variable importance weighted forests. \code{FALSE}
   means no dimension reduction; \code{TRUE} means reducing 75\% variables before binary rank conversion and then fitting a weighted forest; a numeric value x\% between 0 and 1 means reducing x\% variables before binary rank conversion and then fitting a weighted forest.}
+
+\item{datrank}{ If using ranked raw data for fitting the dimension reduction model. }
 
 \item{distribution}{Either a character string specifying the name of the
 distribution to use: if the response has only 2 unique values,
