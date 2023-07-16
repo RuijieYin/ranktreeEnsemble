@@ -2,6 +2,7 @@ rboost <- function(
   formula,
   data,
   dimreduce = TRUE,
+  datrank = TRUE,
   distribution = "multinomial",
   weights,
   ntree = 100,
@@ -27,6 +28,9 @@ rboost <- function(
   }
   delt <- min(delt, 1-5/ncol(data))[1]
   if (dimreduce !=FALSE) {
+    if (datrank) {
+      data[,-which(colnames(data) ==yvar.names)] <- qdat(data[,-which(colnames(data) ==yvar.names)])
+    }
     model <- gbm::gbm(formula, data = data,
                       distribution = distribution,
                       n.trees = ntree,

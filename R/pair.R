@@ -28,3 +28,12 @@ tonewname <- function(xname){
   }
   c(newname,xname[length(xname)])
 }
+qdat <- function(dat){
+  n <- ncol(dat)
+  for (i in 1:n){
+    if (is.numeric(dat[,i])) {
+      dat[,i] <- rank(dat[,i])/n
+    }
+  }
+  dat
+}
