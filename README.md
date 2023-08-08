@@ -1,4 +1,5 @@
 # ranktreeEnsemble: an R package for implementing ensemble methods of rank-based trees as single-sample predictors for gene expression classification 
+* The package is also available at R CRAN: https://CRAN.R-project.org/package=ranktreeEnsemble
 * A python version can be found at: https://github.com/RuijieYin/Ensemble_Methods_of_Rank_Based_Trees_py
 
 ## Authors
