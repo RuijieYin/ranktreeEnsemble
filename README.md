@@ -1,4 +1,10 @@
 # ranktreeEnsemble: an R package for implementing ensemble methods of rank-based trees as single-sample predictors for gene expression classification 
+<!-- badges: start -->
+[![CRAN status](https://badges.cranchecks.info/worst/metavcov.svg)](https://cran.r-project.org/web/checks/check_results_ranktreeEnsemble.html)
+[![CRAN version](https://www.r-pkg.org/badges/version/metavcov)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
+[![CRAN release date](https://www.r-pkg.org/badges/last-release/metavcov)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
+[![CRAN downloads](https://cranlogs.r-pkg.org/badges/metavcov)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
+<!-- badges: end -->
 * The package is also available at R CRAN: https://CRAN.R-project.org/package=ranktreeEnsemble
 * A python version can be found at: https://github.com/RuijieYin/Ensemble_Methods_of_Rank_Based_Trees_py
 
