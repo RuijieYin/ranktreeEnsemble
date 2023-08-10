@@ -1,6 +1,6 @@
 # ranktreeEnsemble: an R package for implementing ensemble methods of rank-based trees as single-sample predictors for gene expression classification 
 <!-- badges: start -->
-[![CRAN status](https://badges.cranchecks.info/worst/ranktreeEnsemble.svg)](https://cran.r-project.org/web/checks/check_results_ranktreeEnsemble.html)
+[![CRAN status](https://badges.cranchecks.info/worst/metavcov.svg)](https://cran.r-project.org/web/checks/check_results_ranktreeEnsemble.html)
 [![CRAN version](https://www.r-pkg.org/badges/version/ranktreeEnsemble)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
 [![CRAN release date](https://www.r-pkg.org/badges/last-release/ranktreeEnsemble)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/ranktreeEnsemble)](https://cran.r-project.org/web/packages/ranktreeEnsemble/index.html)
