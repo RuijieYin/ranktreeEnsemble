@@ -19,8 +19,7 @@ Fast computing an ensemble of rank-based trees via boosting or random forest on 
 
 ### Installation
 ```
-library(devtools)
-install_github("TransBioInfoLab/ranktreeEnsemble")
+install.packages("ranktreeEnsemble")
 library(ranktreeEnsemble)
 ```
 ### Examples
