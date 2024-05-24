@@ -50,7 +50,7 @@ predict(objrs, tnbc[111:120,1:5])$label
 objrs$rule[1:5,]
 ```
 
-* Build a Boosting with LogitBoost Cost model with Variable Importance:
+* Build a Boosting model with LogitBoost Cost with Variable Importance:
 ```
 objb <- rboost(subtype~., data = tnbc[1:100,c(1:5,337)])
 importance(objb)
